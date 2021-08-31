@@ -7,7 +7,7 @@ const Header = () => {
       <header>
       <Navbar bg="dark" collapseOnSelect variant="dark" className="navbar" expand="lg" style={{fontSize:'20px'}} >
         <Container className='p-3'>
-      <Navbar.Brand as={Link} to='/'><h4>Ravikumar Srinivasan</h4></Navbar.Brand>
+      <Navbar.Brand as={Link} to='/'><h4>Komedhagan</h4></Navbar.Brand>
       <Navbar.Toggle aria-controls="header-navbar-nav" />
       <Navbar.Collapse id="header-navbar-nav" className='justify-content-md-center'>
         <Nav className="ml-2">
