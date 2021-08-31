@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import About from './screens/AboutScreen'
+import Contact from './screens/ContactScreen'
+import Resume from './screens/ResumeScreen'
+import Home from './screens/HomeScreen'
+import Project from './screens/ProjectScreen'
+import Admin from './screens/AdminScreen'
+import Login from './screens/Login'
+import { Container } from 'react-bootstrap'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Header />
+      <Container className='p-2'>
+      <Switch>
+        <Route path='/' component={Home} exact/>
+        <Route path='/login' component={Login} />
+        <Route path='/admin' component={Admin} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/resume' component={Resume} />
+          <Route path='/project' component={Project} />
+      </Switch>
+      </Container>
+      <Footer />
+    </Router>
+  )
 }
 
-export default App;
+export default App
+
