@@ -10,7 +10,7 @@ const HomeScreen = () => {
            <Card style={{ width: '21rem' }} className='shadow p-3 mt-3 mb-2 lg-white rounded border'>
   <Card.Img variant="top" src='../images/profile.jpg' />
   <Card.Body>
-    <Card.Title>Ravikumar Srinivasan</Card.Title>
+    <Card.Title>Komendaran</Card.Title>
     <Card.Text>
     A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth-oriented company where I can use my skills to the advantage of the company while having the scope to develop my own skills.
     </Card.Text>
