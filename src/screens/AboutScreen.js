@@ -4,10 +4,12 @@ import { Col, Row ,Image, ListGroup} from 'react-bootstrap'
 import Education from '../components/Education'
 import Experience from '../components/Experience'
 import Skill from '../components/Skill'
+import Meta from '../components/Meta'
 
 const AboutScreen = () => {
     return (
         <>
+        <Meta title='about' />
         <h2 align="center" className='text-primary pt-3'>About Me</h2>
         <Row align="center">
             <Col>

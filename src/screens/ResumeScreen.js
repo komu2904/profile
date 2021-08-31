@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Row ,Button,Card} from 'react-bootstrap'
 import Container from '../components/CenterContainer'
+import Meta from '../components/Meta'
 
 const ResumeScreen = () => {
     const downloadResume =()=>{
@@ -8,6 +9,7 @@ const ResumeScreen = () => {
     }
     return (
         <Container>
+            <Meta title='resume' />
             
             <Row>
                 <Col md={6} className='mt-3'>

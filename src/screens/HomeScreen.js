@@ -1,10 +1,12 @@
 import React from 'react'
 import CenterContainer from '../components/CenterContainer'
 import {Card,Col,Row} from 'react-bootstrap'
+import Meta from '../components/Meta'
 
 const HomeScreen = () => {
     return (
         <CenterContainer>
+          <Meta title='profile' />
            <Card style={{ width: '21rem' }} className='shadow p-3 mt-3 mb-2 lg-white rounded border'>
   <Card.Img variant="top" src='../images/profile.jpg' />
   <Card.Body>

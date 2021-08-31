@@ -1,8 +1,10 @@
 import React from 'react'
 import {Row,Col, Form,Button} from 'react-bootstrap'
+import Meta from '../components/Meta'
 const ContactScreen = () => {
     return (
         <>
+        <Meta title='contact' />
         <Row className='justify-content-md-center'>
         
             <h2 align="center" className='text-primary pt-4'>Contact</h2>
