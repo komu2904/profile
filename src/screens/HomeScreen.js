@@ -8,7 +8,7 @@ const HomeScreen = () => {
         <CenterContainer>
           <Meta title='profile' />
            <Card style={{ width: '21rem' }} className='shadow p-3 mt-3 mb-2 lg-white rounded border'>
-  <Card.Img variant="top" src='../images/profile.jpg' />
+  <Card.Img variant="top" src='../images/InShot_20210421_193123438.jpg' />
   <Card.Body>
     <Card.Title>Komedhagan</Card.Title>
     <Card.Text>
